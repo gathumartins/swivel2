@@ -1,0 +1,237 @@
+.homeBanner {
+  background-color: rgb(200, 200, 200);
+  min-height: 681px;
+  background-image: url('../../assets/img/bannerbg.jpg');
+  background-size: cover;
+  background-position: center;
+  padding-top: 16%;
+  background-attachment: fixed;
+}
+
+.homeBannerInn h3 {
+  font-size: 2.5em;
+  font-family: "Uni Neue Bold";
+  color: rgb(255, 255, 255);
+  line-height: 2;
+  text-shadow: 1.5px 2.598px 24px rgba(0, 0, 0, 0.54);
+}
+
+.homeBannerInn p {
+  max-width: 900px;
+  margin: auto;
+  font-size: 1.2em;
+  font-family: "Uni Neue";
+  color: rgb(255, 255, 255);
+  text-align: center;
+  line-height: 30px;
+  text-shadow: 1.5px 2.598px 24px rgba(0, 0, 0, 0.54);
+}
+
+.btnBanner {
+  margin-top: 30px;
+  border-radius: 3px;
+  background-color: rgb(221, 17, 136);
+  width: 255px;
+  height: 60px;
+  padding-top: 15px;
+  font-size: 20px;
+  font-family: "Uni Neue Bold";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
+
+.homeAbout {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background-color: rgb(248, 248, 248);
+}
+
+.homeAboutHead h3 {
+  font-size: 30px;
+  font-family: "Uni Neue Bold";
+  color: rgb(4, 20, 43);
+  text-transform: uppercase;
+  line-height: 2.133;
+}
+
+.underLineAbt {
+  background-color: rgb(220, 36, 143);
+  width: 30px;
+  height: 2px;
+  margin: auto;
+}
+
+.homeAboutHead h6 {
+  font-size: 16px;
+  font-family: "Uni Neue";
+  color: rgb(4, 20, 43);
+  line-height: 4.001;
+}
+
+.abtCont {
+  min-height: 170px;
+  display: grid;
+  grid-template-columns: 10% auto;
+  grid-column-gap: 25px;
+  margin-bottom: 20px;
+}
+
+.abtContInn h3 {
+  font-size: 18px;
+  font-family: "Uni Neue Bold";
+  color: rgb(4, 20, 43);
+  line-height: 1.556;
+}
+
+.abtContInn p {
+  font-size: 15px;
+  font-family: "Uni Neue";
+  color: rgb(115, 115, 115);
+  line-height: 1.733;
+}
+
+.homeVas {
+  min-height: 500px;
+  padding-top: 120px;
+  padding-bottom: 100px;
+}
+
+.vasCont {
+  margin-bottom: 50px;
+}
+
+.vasCont img {
+  margin-bottom: 20px;
+  height: 100px;
+}
+
+.vasCont h3 {
+  font-size: 18px;
+  font-family: "Uni Neue Bold";
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  line-height: 3.556;
+}
+
+.vasCont p {
+  width: 88%;
+  margin: auto;
+  font-size: 15px;
+  font-family: "Uni Neue";
+  color: rgb(115, 115, 115);
+  line-height: 1.2;
+}
+
+.homeStats {
+  padding-top: 10%;
+  padding-bottom: 30px;
+  min-height: 700px;
+  background: url('../../assets/img/homestatsbg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.homeStatsHead h3 {
+  font-size: 48px;
+  font-family: "Uni Neue";
+  color: rgb(19, 31, 112);
+  text-align: center;
+}
+
+.homeStatsHead h4 {
+  font-size: 24px;
+  font-family: "Uni Neue";
+  color: rgb(19, 31, 112);
+  text-align: center;
+  margin-top: 20px;
+}
+
+.statsCont {
+  margin-top: 50px;
+}
+
+.statsOuter {
+  padding: 15px;
+}
+
+.statsInner {
+  width: 90%;
+  min-height: 260px;
+  border: 1px solid transparent;
+  color: rgb(7, 4, 36);
+  text-align: center;
+  padding-top: 45px;
+  margin: auto;
+}
+
+.statsInner:hover {
+  border: 1px solid rgb(221, 17, 136);
+  color: rgb(221, 17, 136);
+}
+
+.statsInner h1 {
+  font-size: 62px;
+  font-family: "Roboto Medium";
+  line-height: 1;
+}
+
+.mysuperCase {
+  margin-right: 40px;
+  text-align: right;
+  font-size: 38px;
+}
+
+.statsInner h4 {
+  font-size: 18px;
+  font-family: "Roboto Medium";
+  line-height: 4;
+}
+
+@media only screen and (max-width:425px) {
+  .homeBanner {
+    padding-top: 7%;
+    min-height: 400px;
+  }
+
+  .homeBannerInn h3 {
+    font-size: 2em;
+    line-height: 1.3;
+  }
+
+  .homeBannerInn p {
+    font-size: 1em;
+    line-height: 26px;
+  }
+
+  .homeAboutHead h3 {
+    font-size: 25px;
+  }
+
+  .abtContInn p {
+    font-size: 12px;
+  }
+
+  .abtContInn h3 {
+    font-size: 15px;
+  }
+
+  .homeStatsHead h3 {
+    font-size: 30px;
+  }
+
+  .homeStatsHead h4 {
+    font-size: 18px;
+  }
+
+  .homeVas {
+    padding-top: 70px;
+    padding-bottom: 40px;
+  }
+  .vasCont p{
+    font-size: 12px;
+  }
+  .vasCont h3{
+    font-size: 15px;
+  }
+}

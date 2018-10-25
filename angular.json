@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/swivel",
+            "outputPath": "dist",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -23,9 +23,20 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/assets/css/myfonts.css",
+              "src/assets/css/fade-down.css",
+              "src/assets/css/webslidemenu.css",
+              "src/assets/css/white-red.css",
+              "src/assets/css/demo.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.min.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+              "src/assets/js/webslidemenu.js",
+              "src/assets/js/custom.js"
+            ]
           },
           "configurations": {
             "production": {

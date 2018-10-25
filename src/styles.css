@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+.spacerBan{
+    min-height: 20px;
+}
+@media only screen and (max-width: 991px){
+    .spacerBan {
+        min-height: 55px;
+    }
+}
+@media only screen and (max-width: 475px){
+    .breadcrumb{
+        margin-top:5px !important;
+    }
+}
