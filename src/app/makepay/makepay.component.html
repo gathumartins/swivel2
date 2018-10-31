@@ -1,0 +1,299 @@
+<!-- make payment code -->
+<section class="makePayHeader">
+  <div class="container">
+    <ol class="breadcrumb float-right">
+      <li><a [routerLink]="['/home']">Home</a></li>
+      <li class="specialSep">&gt;</li>
+      <li class="active">Make Payments</li>
+    </ol>
+    <div class="pageLabel">Make Payments</div>
+  </div>
+  <div class="clearfix"></div>
+</section>
+<section class="makePaySecOne">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center makePaySecOneHeader">
+        <h2>Buy airtime, pay bills in a <br class="hidden-sm">few clicks</h2>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-7 makePaySlider">
+        <div id="makePay" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/img/makepayone.jpg" alt="Los Angeles">
+              <div class="carousel-caption makePayCapt">
+                <p>Get a Payments
+                  Dashboard to
+                  Manage your
+                  Payments. </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/img/makepayone.jpg" alt="Los Angeles">
+              <div class="carousel-caption makePayCapt">
+                <p>Get a Payments
+                  Dashboard to
+                  Manage your
+                  Payments. </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/img/makepayone.jpg" alt="Los Angeles">
+              <div class="carousel-caption makePayCapt">
+                <p>Get a Payments
+                  Dashboard to
+                  Manage your
+                  Payments. </p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#makePay" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#makePay" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-5 makePayWidget">
+        <div class="mayPaywidgetInner">
+          <div class="row">
+            <div class="col-12 makePayWidgetTitle">
+              <h3>Pay TV</h3>
+            </div>
+            <div class="col-12">
+              <ul class="nav nav-tabs nav-justified payTabs">
+                <li class="nav-item">
+                  <a class="nav-link active" data-toggle="tab" href="#airtime"><img src="assets/img/airtime.png" alt=""
+                      class="img-fluid"></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-toggle="tab" href="#electricity"><img src="assets/img/power.png" alt=""
+                      class="img-fluid"></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-toggle="tab" href="#tv"><img src="assets/img/paytv.png" alt="" class="img-fluid"></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-toggle="tab" href="#water"><img src="assets/img/paywater.png" alt="" class="img-fluid"></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-toggle="tab" href="#health"><img src="assets/img/health.png" alt="" class="img-fluid"></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-toggle="tab" href="#county"><img src="assets/img/county.png" alt="" class="img-fluid"></a>
+                </li>
+              </ul>
+              <div class="tab-content">
+                <div class="tab-pane mypaypanes container active" id="airtime">
+                  <form class="row">
+                    <div class="form-group col-12">
+                      <div class="form-check-inline">
+                        <label class="form-plan-label">
+                          <input type="radio" class="form-check-input" name="optplan">Prepaid
+                          <span class="checkPlan"></span>
+                        </label>
+                      </div>
+                      <div class="form-check-inline">
+                        <label class="form-plan-label">
+                          <input type="radio" class="form-check-input" name="optplan">Postpaid
+                          <span class="checkPlan"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="form-group col-6">
+                      <select class="form-control mypaySelects" required>
+                        <option value="" selected disabled>Select Operater</option>
+                        <option>Safaricom</option>
+                        <option>Airtel</option>
+                        <option>Telkom</option>
+                      </select>
+                    </div>
+                    <div class="form-group col-6">
+                      <input class="form-control mypayInputs" type="text" name="" id="" placeholder="Enter Mobile No">
+                    </div>
+                    <div class="form-group col-6">
+                      <input type="number" class="form-control mypayInputs" placeholder="Enter Amount">
+                    </div>
+                    <div class="col-12">
+                      <div class="btn payNowBtn">Pay Now</div>
+                    </div>
+                  </form>
+                </div>
+                <div class="tab-pane mypaypanes container fade" id="electricity">
+                  <form class="row">
+                    <div class="form-group col-12">
+                      <div class="form-check-inline">
+                        <label class="form-plan-label">
+                          <input type="radio" class="form-check-input" name="electricityplan">Token
+                          <span class="checkPlan"></span>
+                        </label>
+                      </div>
+                      <div class="form-check-inline">
+                        <label class="form-plan-label">
+                          <input type="radio" class="form-check-input" name="electricityplan">Postpaid Bill
+                          <span class="checkPlan"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="form-group col-6">
+                      <input class="form-control mypayInputs" type="text" name="" id="" placeholder="Enter Meter No">
+                    </div>
+                    <div class="form-group col-6">
+                      <input class="form-control mypayInputs" type="text" name="" id="" placeholder="Enter Mobile No">
+                    </div>
+                    <div class="form-group col-6">
+                      <input type="number" class="form-control mypayInputs" placeholder="Enter Amount">
+                    </div>
+                    <div class="col-12">
+                      <div class="btn payNowBtn">Pay Now</div>
+                    </div>
+                  </form>
+                </div>
+                <div class="tab-pane mypaypanes container fade" id="tv">
+                  <form class="row">
+                    <div class="form-group col-12 myTvProviders">
+                      <label class="tvProviders">
+                        <input type="radio">
+                        <span class="tvCheckmark"><img src="assets/img/zuku.png" alt="" class="img-fluid"></span>
+                      </label>
+                      <label class="tvProviders">
+                        <input type="radio">
+                        <span class="tvCheckmark"><img src="assets/img/dstv.png" alt="" class="img-fluid"></span>
+                      </label>
+                      <label class="tvProviders">
+                        <input type="radio">
+                        <span class="tvCheckmark"><img src="assets/img/gotv.png" alt="" class="img-fluid"></span>
+                      </label>
+                      <label class="tvProviders">
+                        <input type="radio">
+                        <span class="tvCheckmark"><img src="assets/img/startimes.png" alt="" class="img-fluid"></span>
+                      </label>
+                    </div>
+                    <div class="form-group col-6">
+                      <input class="form-control mypayInputs" type="text" name="" id="" placeholder=" Enter Smart Card No">
+                    </div>
+                    <div class="form-group col-6">
+                      <input class="form-control mypayInputs" type="text" name="" id="" placeholder="Enter Mobile No">
+                    </div>
+                    <div class="form-group col-6">
+                      <input class="form-control mypayInputs" type="text" name="" id="" placeholder="Enter Amount">
+                    </div>
+                    <div class="col-12">
+                      <div class="btn payNowBtn">Pay Now</div>
+                    </div>
+                  </form>
+                </div>
+                <div class="tab-pane mypaypanes container fade" id="water">
+                  <form class="row">
+                    <div class="form-group specFormGroup col-6">
+                      <select class="form-control mypaySelects" required>
+                        <option value="" selected disabled>Select Water Company</option>
+                        <option>NAWASCO</option>
+                        <option>THIWASCO</option>
+                        <option>MUWASCO</option>
+                      </select>
+                    </div>
+                    <div class="form-group specFormGroup col-6">
+                      <input class="form-control mypayInputs" type="text" name="" id="" placeholder="Enter Account No">
+                    </div>
+                    <div class="form-group specFormGroup col-6">
+                      <input type="number" class="form-control mypayInputs" placeholder="Enter Amount">
+                    </div>
+                    <div class="form-group specFormGroup col-6">
+                      <input class="form-control mypayInputs" type="text" name="" id="" placeholder="Enter Mobile No">
+                    </div>
+                    <div class="col-12">
+                      <div class="btn payNowBtn">Pay Now</div>
+                    </div>
+                  </form>
+                </div>
+                <div class="tab-pane mypaypanes container fade" id="health">
+                  <form class="row">
+                    <div class="form-group specFormGroup col-6">
+                      <input class="form-control mypayInputs" type="text" name="" id="" placeholder="Enter Membership No">
+                    </div>
+                    <div class="form-group specFormGroup col-6">
+                      <input class="form-control mypayInputs" type="text" name="" id="" placeholder="Enter Phone No">
+                    </div>
+                    <div class="form-group specFormGroup col-6">
+                      <input class="form-control mypayInputs" type="text" name="" id="" placeholder="Enter Amount">
+                    </div>
+                    <div class="form-group specFormGroup col-6">
+                      <input class="form-control mypayInputs" type="text" name="" id="" placeholder="Enter Penalty Fee">
+                    </div>
+                    <div class="col-12">
+                      <div class="btn payNowBtn">Pay Now</div>
+                    </div>
+                  </form>
+                </div>
+                <div class="tab-pane mypaypanes container fade" id="county">
+                  <form class="row">
+                    <div class="form-group specFormGroup col-6">
+                      <select class="form-control mypaySelects" required>
+                        <option value="" selected disabled>Select County</option>
+                        <option>Nairobi</option>
+                        <option>Kisumu</option>
+                        <option>Mombasa</option>
+                        <option>Kiambu</option>
+                      </select>
+                    </div>
+                    <div class="form-group specFormGroup col-6">
+                      <select class="form-control mypaySelects" required>
+                        <option value="" selected disabled>Select Service</option>
+                        <option>Parking Fee</option>
+                        <option>Land Rates</option>
+                        <option>Business Permits</option>
+                      </select>
+                    </div>
+                    <div class="form-group specFormGroup col-6">
+                      <input class="form-control mypayInputs" type="text" name="" id="" placeholder="Enter House No.">
+                    </div>
+                    <div class="form-group specFormGroup col-6">
+                      <input type="number" class="form-control mypayInputs" placeholder="Enter Amount">
+                    </div>
+                    <div class="col-12">
+                      <div class="btn payNowBtn">Pay Now</div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 makePayLastCont">
+        <div class="row">
+          <div class="col-12 text-center makePayHead">
+            <h3>We Provide Quality </h3>
+            <div class="underLineAbt"></div>
+            <h6>The Best for you</h6>
+          </div>
+          <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 makePayCont">
+            <img src="assets/img/businessabt.png" alt="">
+            <div class="makePayInn">
+              <h3>Pay Bills and <br>Buy Airtime </h3>
+              <p>Pay Bills e.g. electricity, water, pay tv, etc and Buy airtime easily </p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 makePayCont">
+            <img src="assets/img/financeabt.png" alt="">
+            <div class="makePayInn">
+              <h3>Pay County <br>Fees</h3>
+              <p>Pay county fees for parking, Land rates and Rent</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 makePayCont">
+            <img src="assets/img/customerabt.png" alt="">
+            <div class="makePayInn">
+              <h3>Schedule <br>Bills</h3>
+              <p>On your profile schedule automatic paymants of your reurrent bills e.g. Pay TV </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<app-partners></app-partners>

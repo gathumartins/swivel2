@@ -22,7 +22,7 @@
     <!--Main Menu HTML Code-->
     <nav class="wsmenu clearfix">
       <ul class="wsmenu-list nav-justified">
-        <li aria-haspopup="true"><a routerLinkActive="active">Products <span class="wsarrow"></span></a>
+        <li aria-haspopup="true"><a>Products <span class="wsarrow"></span></a>
           <ul class="sub-menu">
             <li aria-haspopup="true"><a [routerLink]="['/enterprise']" routerLinkActive="active"><i class="fa fa-angle-right"></i>KentaPay&reg;
                 Enterprise</a></li>
@@ -30,7 +30,7 @@
                 Personal</a></li>
           </ul>
         </li>
-        <li aria-haspopup="true"><a>Make payments </a></li>
+        <li aria-haspopup="true"><a [routerLink]="['/payments']" routerLinkActive="active">Make payments </a></li>
         <li aria-haspopup="true"><a [routerLink]="['/about']" routerLinkActive="active">About Swivel </a></li>
         <li aria-haspopup="true"><a [routerLink]="['/contacts']" routerLinkActive="active">Contact Us </a></li>
         <li aria-haspopup="true" class="loginLink float-right"><a [routerLink]="['/login']" routerLinkActive="active">Login</a></li>
