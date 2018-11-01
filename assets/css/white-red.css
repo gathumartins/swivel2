@@ -53,28 +53,28 @@
   color: #dd1188;
 }
 .wsmenu>.wsmenu-list>li>a.active {
-  background-color: #181c3d;
-  color: #dd1188;
+  background-color: #dd1188;
+  color: #fff;
 }
 
 .wsmenu>.wsmenu-list>li:hover>a {
-  background-color: #181c3d;
-  color: #dd1188;
+  background-color: #dd1188;
+  color: #fff;
 }
 
 .wsmenu>.wsmenu-list>li>ul.sub-menu>li:hover>a {
-  background-color: #181c3d;
-  color: #dd1188;
+  background-color: #dd1188;
+  color: #fff;
 }
 
 .wsmenu>.wsmenu-list>li>ul.sub-menu>li>ul.sub-menu>li:hover>a {
-  background-color: #181c3d;
-  color: #dd1188;
+  background-color: #dd1188;
+  color: #fff;
 }
 
 .wsmenu>.wsmenu-list>li>ul.sub-menu>li>ul.sub-menu>li>ul.sub-menu>li:hover a {
-  background-color: #181c3d;
-  color: #dd1188;
+  background-color: #dd1188;
+  color: #fff;
 }
 .loginLink>a{
   margin-top: 10px;
