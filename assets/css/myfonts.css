@@ -40,3 +40,10 @@
     font-weight: 300;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Gentona';
+    src: url('../fonts/Gentona-Medium.woff2') format('woff2'),
+        url('../fonts/Gentona-Medium.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
